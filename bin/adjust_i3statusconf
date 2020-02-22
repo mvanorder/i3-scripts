@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 bat=$(echo /sys/class/power_supply/* | grep -o "BAT.")
 
